@@ -51,7 +51,7 @@
         :root {
             --azul-logo: #0A2F44;
             --azul-escuro: #051e2c;
-            --branco: black;  /* background do logo */
+            --background: linear-gradient(135deg, #0a2f44 0%, #0a1f2e 100%);
             --dourado: #C7A83A;
             --dourado-hover: #DFC475;
         }
@@ -75,10 +75,7 @@
 
         /* Cartão principal */
         .digital-card {
-            :root {
-    --azul-logo: #0a2f44;
-    --branco-logo: #ffffff;
-} /* fundo card */
+       background: var(--azul-logo);
 
             
             border-radius: 42px;
@@ -93,7 +90,7 @@
 
         /* BANNER BRANCO com a logo no meio */
         .banner-branco {
-            background: var(--branco);
+            background: black;
             padding: 32px 26px 27px;
             text-align: center;
             border-bottom: 3px solid var(--dourado);
