@@ -75,7 +75,12 @@
 
         /* Cartão principal */
         .digital-card {
-            background: var(--azul-logo);
+            :root {
+    --azul-logo: #0a2f44;
+    --branco-logo: #ffffff;
+} /* fundo card */
+
+            
             border-radius: 42px;
             overflow: hidden;
             box-shadow: 0 30px 50px -20px rgba(0, 0, 0, 0.5);
